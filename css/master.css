@@ -54,6 +54,11 @@ body {
     text-align: center;
 }
 
+.planeta:hover {
+    transform: scale(0.98);
+    transition: transform 0.3s ease;
+}
+
 .imgPlaneta {
     width: 100%;
     border-radius: 360px;
@@ -86,6 +91,32 @@ body {
     text-align: center;
 }
 
+.botonDetalle:hover{
+    color:#67339A;
+    background-color:black;
+    border-color:#67339A;
+    border: solid;
+    border-width: 1px;
+
+}
+
+.botonComprar:hover{
+    color:#67339A;
+    background-color:black;
+    border-color:#67339A;
+    border: solid;
+    border-width: 1px;
+
+}
+
+.botonVolver:hover{
+    color: white;
+    background-color:black;
+    border-color: white;
+    border: solid;
+    border-width: 1px;
+
+}
 .imgDetalle {
     width: 55vw;
     border-radius: 360px;
@@ -244,7 +275,6 @@ height: 120vh;
     width: 12vw;
     border-radius: 360px;
 }
-
 
 
 
