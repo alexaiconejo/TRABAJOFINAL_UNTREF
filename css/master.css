@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Monument';
+    src: url('../fonts/MonumentExtended-Ultrabold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.botonDetalle{
+    color: black;
+    background-color: #67339A;
+    padding: 1vh 2vw;
+    border-radius: 25px;
+}
+
+body{
+
+background-color: black;
+}
+
+.container{
+border: solid;
+    border-color: aliceblue;
+    padding: 10vw 10vh;
+    
+}
+
+.titulo{
+    color: aliceblue;
+    font-family: "monument";
+    text-align: center;
+    font-size: 3rem;
+}
+
+.bajada{
+    color: aliceblue;
+    text-align: center;
+}
+
+.planetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5vh;
+
+}
+
+.planeta{
+    color: #67339A;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 5vw 5vh;
+    margin-bottom: 5vh;
+    box-shadow: inset 0px -25px 30px 25px rgba(62, 43, 140, 0.2);
+    text-align: center;
+
+}
+
+.imgPlaneta{
+    width: 100%;
+    border-radius: 360px;
+}
+
+.nombre{
+    color: white;
+    font-family: 'Monument';
+}
+
+.nombreDetalle{
+font-family: "monument";
+font-size: 7rem;
+color: white;
+z-index: 1000;
+
+}
+
+
+.datosContainer{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+
+}
+
+
+.botonVolver{
+    z-index: 3000;
+    color: #67339A;
+    border-color: #67339A;
+    border: solid;
+    border-width: 1px;
+    padding: 1vh 2vw;
+    text-align: center;
+
+
+}
+
+.imgDetalle{
+    width: 25vw;
+border-radius: 360px;
+justify-self: center;
+
+z-index: 0;
+
+}
+
+.ficha{
+    z-index: 1000;
+    text-align: left;
+   padding: 2vh 5vw;
+
+}
+
+
+.detalleContainer{
+}
+
+
+
+
+.detalleArticle{
+    border: solid;
+    color: #67339A;
+    margin: 5vh 5vw;
+
+
+}
+
+.tituloDetalle{
+    font-size: 1rem;
+    margin-top: 5vh;
+}
+
+.regente{
+color: black;
+background-color: #67339A;
+padding: 1vh 1vw;
+font-size: 1rem;
+border-radius: 20px;
+
+}
+
+.simbolo{
+    font-size: 1.5rem;
+    padding-left: 1vw;
+
+}
+
+.codigoId{
+    font-size: 3rem;
+    padding-left: 1vw;
+
+}
+
+.botonComprar{
+    color: black;
+background-color: #67339A;
+padding: 1vh 1vw;
+font-size: 1rem;
+border-radius: 20px;
+text-align: center;
+
+
+}
+
+.botonera{
+    display: grid;
+    width: 15vw;
+    height: 20vh;
+
+}
+
+.datos{
+    font-size: 0.9rem;
+    text-align: justify;
+    padding-top: 2vh;
+}
+
+.final{
+    font-size: 1rem;
+}

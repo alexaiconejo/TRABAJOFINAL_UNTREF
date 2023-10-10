@@ -1,0 +1,121 @@
+
+
+
+[
+    {
+        "codigo" : "01",
+        "nombre" : "Sol",
+        "regente": "Leo",
+        "simbolo" : "☉",
+        "datos": "Nuestro Sol, fuente primordial de luz y energía en el sistema solar, desempeña un papel vital en la existencia de la vida en la Tierra. Astronómicamente, su composición química y su poderosa gravedad influencian los movimientos de todos los planetas. El Sol, en la astrología, simboliza nuestra esencia, nuestra identidad central. Es el corazón de la carta natal, revelando la esencia de quiénes somos. Desde una perspectiva filosófica, representa la fuente de nuestra vitalidad y autoexpresión. Descubre tu esencia en la carta lunar natal.",
+        "final": "",
+        "precio": "800",
+        "imagen" : "./img/sol.gif"
+    },
+    {
+        "codigo" : "02",
+        "nombre" : "Luna",
+        "regente" : "Cáncer",
+        "simbolo" : "☾",
+        "datos": "Luna:  La luna cumple un rol fundamental en los ciclos de la naturaleza al igual que el sol y es indispensable para la existencia de la vida en la tierra, pero con particular insidencia en las mareas, cosechas, gestación de la vida, estados anímicos, procesos emocionales y más. Simbolicamente en todas las culturas se lo relaciona a la figura materna, la nutrición, el hogar, el embarazo, la familia, los ciclos de la vida, rituales de cosecha y también las relaciones afectivas y amorosas. En astrología, al estudiar su posición y su comportamiento en la carta natal nos permite analizar simbólicamente el vinculo con la figura materna y con nuestra comunidad más cercana y cómo eso estrucutra nuestro sitema emocional y vincular. ",
+
+"final": "Si querés saber sobre tu luna natal, adquirí tu carta lunar natal.",
+
+        "precio": "800",
+        "imagen" : "./img/luna.gif"
+    },
+    {
+        "codigo" : "03",
+        "nombre" : "Mercurio",
+        "regente" : "Géminis, Virgo",
+        "simbolo" : "☿",
+        "datos": "Mercurio, el mensajero ágil del sistema solar, orbita cercano al Sol y se asocia con la forma en que pensamos y nos comunicamos. Astronómicamente, es el planeta más cercano al Sol. En la astrología, Mercurio revela cómo procesamos la información y expresamos ideas. Explora tu carta natal de Mercurio para comprender tu estilo comunicativo único. Desde una perspectiva psicológica, este planeta también puede ofrecer vislumbres de tu mente y cómo te enfrentas a los desafíos intelectuales cotidianos.",
+        "final": "",
+
+        "precio": "1000",
+        "imagen" : "./img/mercurio.gif"
+    },
+    {
+        "codigo" : "04",
+        "nombre" : "Marte",
+        "regente" : "Aries",
+        "simbolo" : "♂",
+        "datos": "Marte, el planeta rojo, encarna la energía y la acción. Astronómicamente, es un planeta rocoso. En la astrología, Marte refleja nuestra motivación y determinación. Desde una perspectiva filosófica, Marte simboliza la fuerza impulsora que nos impulsa a la acción y nos inspira a conquistar desafíos. Descubre cómo Marte influye en tu carta natal y canaliza esa energía en tu vida diaria.",
+        "final": "",
+
+        "precio": "1000",
+        "imagen" : "./img/marte.gif"
+    },
+    {
+        "codigo" : "05",
+        "nombre" : "Venus",
+        "regente" : "Tauro, Libra",
+        "simbolo" : "♀",
+        "datos": "Venus, conocido como la estrella de la tarde o la estrella de la mañana, comparte similitudes con la Tierra y se asocia con el amor y la armonía en la astrología. Astronómicamente, es nuestro vecino planetario. En tu carta natal de Venus, descubrirás tus preferencias románticas y estéticas. Desde una perspectiva filosófica, Venus simboliza las relaciones y la belleza en nuestras vidas, influenciando cómo experimentamos el amor y la estética. Explora las complejidades de tus relaciones y deseos románticos a través de tu carta lunar de Venus. ",
+        "final": "",
+
+        "precio": "1000",
+        "imagen" : "./img/venus.gif"
+    },
+    {
+        "codigo" : "06",
+        "nombre" : "Jupiter",
+        "regente" : "Sagitario",
+        "simbolo" : "♃",
+        "datos": "Júpiter, el gigante gaseoso, ejerce una poderosa influencia. Astronómicamente, es el mayor de todos los planetas. En astrología, Júpiter simboliza la expansión, la abundancia y la filosofía de vida. Desde una perspectiva filosófica, Júpiter nos impulsa a buscar significado y comprensión en la vida. Explora la generosidad y la sabiduría de Júpiter en tu carta natal.",
+        "final": "",
+
+        "precio": "1000",
+        "imagen" : "./img/jupiter.gif"
+    },
+    {
+        "codigo" : "07",
+        "nombre" : "Saturno",
+        "regente" : "Capricornio",
+        "simbolo" : "♄",
+        "datos": "Saturno, rodeado por sus anillos distintivos, representa estructuras y responsabilidades. Astronómicamente, es un gigante gaseoso. En astrología, Saturno refleja nuestras limitaciones y el trabajo disciplinado. Desde una perspectiva filosófica, Saturno nos enseña lecciones importantes a través de la experiencia y el tiempo. Descubre cómo Saturno configura tus responsabilidades en tu carta natal.",
+        "final": "",
+
+        "precio": "1500",
+        "imagen" : "./img/saturno.gif"
+    },
+    {
+        "codigo" : "08",
+        "nombre" : "Urano",
+        "regente" : "Acuario",
+        "simbolo" : "♅",
+        "datos": "Urano, el mensajero de la innovación cósmica, desafía las normas celestiales con su órbita excéntrica. Astronómicamente, este gigante gaseoso representa la rebeldía en movimiento. En astrología, Urano personifica el cambio radical y la revolución. Su posición en tu carta natal señala áreas de tu vida donde buscas liberarte de las restricciones convencionales y abrazar la autenticidad. Desde una perspectiva filosófica, Urano nos impulsa a cuestionar las estructuras establecidas, fomentando la liberación de la creatividad y la búsqueda de la verdad individual.",
+        "final": "",
+
+        "precio": "1500",
+        "imagen" : "./img/urano.gif"
+    },
+    {
+        "codigo" : "09",
+        "nombre" : "Neptuno",
+        "regente" : "Piscis",
+        "simbolo" : "♆ ",
+        "datos": "Neptuno, el misterioso planeta azul, se asocia con la espiritualidad y la imaginación. Astronómicamente, es un gigante gaseoso. En astrología, Neptuno refleja nuestra conexión con lo trascendental y nuestras aspiraciones artísticas. Desde una perspectiva filosófica, Neptuno nos sumerge en el océano de la creatividad y la compasión. Descubre las profundidades de Neptuno en tu carta natal.",
+        "final": "",
+
+        "precio": "1500",
+        "imagen" : "./img/neptuno.gif"
+    },
+    {
+        "codigo" : "10",
+        "nombre" : "Plutón",
+        "regente" : "Escorpio",
+        "simbolo" : "♇ ",
+        "datos": "Plutón, en los confines del sistema solar, representa transformación y renacimiento. Astronómicamente, es un planeta enano. En astrología, Plutón simboliza el poder regenerador y las profundidades psicológicas. Desde una perspectiva filosófica, Plutón nos lleva a las sombras para encontrar la verdad oculta. Explora la metamorfosis personal a través de tu carta natal de Plutón.",
+        "final": "",
+
+        "precio": "1500",
+        "imagen" : "./img/pluton.gif"
+    }
+    
+    
+    
+]
+
+
+
