@@ -15,7 +15,7 @@ let datos = document.getElementById('datos');
 let imagen = document.getElementById('imagen');
 
 // Fetch original para obtener los datos de los planetas
-fetch('../datos/planetas.json')
+fetch('./datos/planetas.json')
     .then((respuesta) => {
         return respuesta.json();
     })

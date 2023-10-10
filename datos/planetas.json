@@ -10,7 +10,7 @@
         "datos": "Nuestro Sol, fuente primordial de luz y energía en el sistema solar, desempeña un papel vital en la existencia de la vida en la Tierra. Astronómicamente, su composición química y su poderosa gravedad influencian los movimientos de todos los planetas. El Sol, en la astrología, simboliza nuestra esencia, nuestra identidad central. Es el corazón de la carta natal, revelando la esencia de quiénes somos. Desde una perspectiva filosófica, representa la fuente de nuestra vitalidad y autoexpresión. Descubre tu esencia en la carta lunar natal.",
         "final": "",
         "precio": "800",
-        "imagen" : "./img/sol.gif"
+        "imagen" : "./img/sol.jpg"
     },
     {
         "codigo" : "02",
@@ -22,7 +22,7 @@
 "final": "Si querés saber sobre tu luna natal, adquirí tu carta lunar natal.",
 
         "precio": "800",
-        "imagen" : "./img/luna.gif"
+        "imagen" : "./img/luna.jpg"
     },
     {
         "codigo" : "03",
@@ -33,7 +33,7 @@
         "final": "",
 
         "precio": "1000",
-        "imagen" : "./img/mercurio.gif"
+        "imagen" : "./img/mercurio.jpg"
     },
     {
         "codigo" : "04",
@@ -44,7 +44,7 @@
         "final": "",
 
         "precio": "1000",
-        "imagen" : "./img/marte.gif"
+        "imagen" : "./img/marte.jpg"
     },
     {
         "codigo" : "05",
@@ -55,7 +55,7 @@
         "final": "",
 
         "precio": "1000",
-        "imagen" : "./img/venus.gif"
+        "imagen" : "./img/venus.jpg"
     },
     {
         "codigo" : "06",
@@ -77,7 +77,7 @@
         "final": "",
 
         "precio": "1500",
-        "imagen" : "./img/saturno.gif"
+        "imagen" : "./img/saturno.jpg"
     },
     {
         "codigo" : "08",
@@ -88,7 +88,7 @@
         "final": "",
 
         "precio": "1500",
-        "imagen" : "./img/urano.gif"
+        "imagen" : "./img/urano.jpg"
     },
     {
         "codigo" : "09",
@@ -99,7 +99,7 @@
         "final": "",
 
         "precio": "1500",
-        "imagen" : "./img/neptuno.gif"
+        "imagen" : "./img/neptuno.jpg"
     },
     {
         "codigo" : "10",
@@ -110,7 +110,7 @@
         "final": "",
 
         "precio": "1500",
-        "imagen" : "./img/pluton.gif"
+        "imagen" : "./img/pluton.jpg"
     }
     
     
