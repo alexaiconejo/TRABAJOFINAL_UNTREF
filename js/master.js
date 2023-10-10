@@ -1,7 +1,7 @@
 // Capturar los elementos
 let planetasHTML = document.querySelector('.planetas');
 
-fetch('../datos/planetas.json')
+fetch('./datos/planetas.json')
     .then((respuesta) => {
         return respuesta.json();
     })
