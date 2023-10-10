@@ -9,42 +9,41 @@
 .botonDetalle{
     color: black;
     background-color: #67339A;
-    padding: 1vh 2vw;
+    padding: 1vh 9vw;
     border-radius: 25px;
 }
 
-body{
-
-background-color: black;
+/* Mobile First Styles */
+body {
+    background-color: black;
 }
 
-.container{
-border: solid;
+.container {
+    border: solid;
     border-color: aliceblue;
-    padding: 10vw 10vh;
-    
+    padding: 1vw 10vh;
 }
 
-.titulo{
+.titulo {
     color: aliceblue;
     font-family: "monument";
     text-align: center;
-    font-size: 3rem;
+    padding-top: 2vh;
+    font-size: 2rem;
 }
 
-.bajada{
+.bajada {
     color: aliceblue;
     text-align: center;
 }
 
-.planetas{
+.planetas {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     column-gap: 5vh;
-
 }
 
-.planeta{
+.planeta {
     color: #67339A;
     border: solid;
     border-width: 1px;
@@ -53,36 +52,31 @@ border: solid;
     margin-bottom: 5vh;
     box-shadow: inset 0px -25px 30px 25px rgba(62, 43, 140, 0.2);
     text-align: center;
-
 }
 
-.imgPlaneta{
+.imgPlaneta {
     width: 100%;
     border-radius: 360px;
 }
 
-.nombre{
+.nombre {
     color: white;
     font-family: 'Monument';
 }
 
-.nombreDetalle{
-font-family: "monument";
-font-size: 7rem;
-color: white;
-z-index: 1000;
-
+.nombreDetalle {
+    font-family: "monument";
+    font-size: 3rem;
+    color: white;
+    z-index: 1000;
 }
 
-
-.datosContainer{
+.datosContainer {
     display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
-
+    grid-template-columns: 1fr;
 }
 
-
-.botonVolver{
+.botonVolver {
     z-index: 3000;
     color: #67339A;
     border-color: #67339A;
@@ -90,28 +84,165 @@ z-index: 1000;
     border-width: 1px;
     padding: 1vh 2vw;
     text-align: center;
-
-
 }
 
-.imgDetalle{
-    width: 25vw;
-border-radius: 360px;
-justify-self: center;
-
-z-index: 0;
-
+.imgDetalle {
+    width: 55vw;
+    border-radius: 360px;
+    justify-self: center;
+    z-index: 0;
 }
 
-.ficha{
+.ficha {
     z-index: 1000;
     text-align: left;
-   padding: 2vh 5vw;
-
+    padding: 2vh 5vw;
 }
 
 
 .detalleContainer{
+}
+
+
+
+
+.detalleArticle{
+    height: 100vh;
+    border: solid;
+    color: #67339A;
+    margin: 5vh 5vw;
+
+
+}
+
+.tituloDetalle{
+    font-size: 1rem;
+    margin-top: 5vh;
+}
+
+.regente{
+color: black;
+background-color: #67339A;
+padding: 1vh 1vw;
+font-size: 1rem;
+border-radius: 20px;
+
+}
+
+.simbolo{
+    font-size: 1.5rem;
+    padding-left: 1vw;
+
+}
+
+.codigoId{
+    font-size: 3rem;
+    padding-left: 1vw;
+
+}
+
+.botonComprar{
+    color: black;
+background-color: #67339A;
+padding: 1vh 1vw;
+font-size: 1rem;
+border-radius: 20px;
+text-align: center;
+
+
+}
+
+.botonera{
+    display: grid;
+    height: 20vh;
+    padding: 1vh 5vw;
+
+}
+
+.datos{
+    font-size: 0.7rem;
+    text-align: justify;
+    padding-top: 2vh;
+}
+
+.final{
+    font-size: 1rem;
+}
+
+/* Tablet Styles */
+@media (min-width: 600px) {
+    .planetas {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .detalleArticle {
+height: 120vh;
+    }
+    .datosContainer {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+    }
+    .imgDetalle {
+        width: 40vw;
+        border-radius: 360px;
+        justify-self: center;
+        z-index: 0;
+    }
+
+    .datosContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+.regente{
+    color: black;
+    background-color: #67339A;
+    padding: 1vh 1vw;
+    font-size: 1rem;
+    border-radius: 35px;
+    width: 35vw;
+    
+    }
+
+    .botonComprar{
+        width: 25vw;
+        justify-self: center;
+    }
+    .botonVolver{
+        width: 25vw;
+        justify-self: center;
+    }
+    .precio{
+        justify-self: center;
+    }
+
+    .final{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    
+}
+
+/* TV Styles */
+@media (min-width: 1200px) {
+    .planetas {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .detalleContainer {
+        /* Agrega estilos específicos para televisores aquí */
+    }
+    .datosContainer {
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+    }
+    
+.detalleContainer{
+}
+
+.imgPlaneta {
+    width: 12vw;
+    border-radius: 360px;
 }
 
 
@@ -166,6 +297,7 @@ text-align: center;
     display: grid;
     width: 15vw;
     height: 20vh;
+    padding: 0vh 0vw;
 
 }
 
@@ -177,4 +309,48 @@ text-align: center;
 
 .final{
     font-size: 1rem;
+}
+
+.nombreDetalle {
+    font-family: "monument";
+    font-size: 7rem;
+    color: white;
+    z-index: 1000;
+}
+.imgDetalle {
+    width: 25vw;
+    border-radius: 360px;
+    justify-self: center;
+    z-index: 0;
+}
+
+
+
+.detalleArticle{
+    height: 90vh;
+    border: solid;
+    color: #67339A;
+    margin: 5vh 5vw;
+
+
+}
+
+.botonComprar{
+    width: 10vw;
+    justify-self: left;
+}
+.botonVolver{
+    width: 10vw;
+    justify-self: left;
+}
+.precio{
+    justify-self: left;
+}
+
+.final{
+    text-align: left;
+    font-size: 0.8rem;
+    width: 10vw;
+}
+
 }
